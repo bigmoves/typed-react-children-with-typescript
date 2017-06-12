@@ -25,6 +25,7 @@ render(
 
     <ChildrenMustBeElements a={1} b="a">
       <Foo />
+      <Foo />
     </ChildrenMustBeElements>
 
     <ChildrenMustBeFunction a={1} b="a">
