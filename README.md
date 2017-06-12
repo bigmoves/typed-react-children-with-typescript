@@ -19,3 +19,7 @@ $ npm run build
 $ npm run serve
 # Visit localhost:8080.
 ```
+
+## Known limitations
+
+It looks like it is not possible to say that a `<ButtonGroup/>` can only have `<Button/>`'s as `children`. See this [comment](https://github.com/Microsoft/TypeScript/pull/15160#issuecomment-307697507).
